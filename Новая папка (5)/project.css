@@ -1,0 +1,127 @@
+html{
+    font-family: 'Gilroy';
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.icon-logo{
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    left: 312px;
+    top: 40px;
+    width: 153px;
+    height: 46px;
+}
+nav{
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 742px;
+    height: 20px;
+    left: 589px;
+    top: 55px;
+
+}
+a{
+    z-index: 1;
+    display: flex;
+    width: 53px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-decoration: none;
+    flex: none;
+    flex-grow: 0;
+    color: #FFFFFF;
+}
+.h2{
+    z-index: 1;
+    position: absolute;
+    width: 636px;
+    height: 201px;
+    left: 312px;
+    top: 306px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.block_1{
+    z-index: 1;
+    position: absolute;
+    width: 315px;
+    height: 151px;
+    left: 312px;
+    top: 849px;
+    background: #8D86C9;
+}
+.block_2{
+    z-index: 1;
+    position: absolute;
+    width: 315px;
+    height: 151px;
+    left: 639px;
+    top: 849px;
+    background: #8D86C9;
+}
+.block_3{
+    z-index: 1;
+    position: absolute;
+    width: 315px;
+    height: 151px;
+    left: 966px;
+    top: 849px;
+    background: #8D86C9;
+}
+.block_4{
+    z-index: 1;
+    position: absolute;
+    width: 315px;
+    height: 151px;
+    left: 1293px;
+    top: 849px;
+    background: #8D86C9;
+}
+.h3{
+    z-index: 1;
+    position: absolute;
+    left: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.a{
+    z-index: 1;
+    position: absolute;
+    left: 30px;
+    top: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+}
+.img1{
+    z-index: 0;
+    position: absolute;
+    width: 1920px;
+    height: 1000px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(.jpg);
+}
